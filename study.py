@@ -74,8 +74,7 @@ class PensionData():
 
 @st.cache
 def read_pensiondata():
-    # data = PensionData('https://www.dropbox.com/s/nxeo1tziv05ejz7/national-pension.csv?dl=1')
-    data = PensionData('/Volumes/설치/vscode/python/study/national-pension.csv')
+    data = PensionData('https://www.dropbox.com/s/nxeo1tziv05ejz7/national-pension.csv?dl=1')
     return data
 
 data = read_pensiondata()
